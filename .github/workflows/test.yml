@@ -21,4 +21,4 @@ jobs:
           pip install -r requirements.txt
 
       - name: Run tests
-        run: pytest --cov=app Devops_test/test_app.py  # Run tests with coverage
+        run: pytest --cov=app Devops_Test/test_app.py  # Run tests with coverage
